@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.badbox {
+  background: #FAA;
+}
+
+.categories .letter {
+  display: none;
+}
+
+.categories:focus .letter {
+  display: inline;
+}
+
+.category {
+  font-size: larger;
+  background: white;
+  border-radius: 5px;
+  border: thin black solid;
+  margin: 2px;
+  min-width: 200px;
+}
+
+.category:hover {
+  background: #F2F2F2;
+}
+
+
+.boxcolumns {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.separated {
+  margin-bottom: 50px;
+}
+
+.boxcol {
+  width: 33%;
+}
+
+.panel {
+  background: #FBFBFB;
+  border: thin #CCC solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+textarea {
+  width: 80%;
+}
+
+.mainbox {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.centered {
+  margin: auto;
+}
+
+.buttons {
+  margin: auto;
+  column-width: 200px;
+}
+
+.buttons:hover {}
+.counter {
+  column-width: 200px;
+  column-rule: 1px solid #888;
+}
+
+.counter .row {
+  flex-direction: column;
+}
+
+.counter .row span:first-child {
+  display: inline-block;
+  min-width: 170px;
+  font-weight: bold;
+}
