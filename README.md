@@ -11,3 +11,10 @@ A web app which lets you categorize text.
 The word categories are output to the Mapping box as JSON. You can edit that directly to update the categories. For example, you can delete a category, rename a category or word, or even copy/paste results to/from somewhere else.
 
 **Note**: if you rename a category or word in the categories/words boxes, it will *clear* the category or remove the word from its category.
+
+## Building
+
+    npm install
+    npm run build
+
+The app is built to `docs/` so that it can be served by Github Pages.
