@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: #333;
 }
 
 .App-logo {
@@ -35,7 +36,7 @@
   display: none;
 }
 
-.categories:focus .letter {
+.categories:focus-within .letter {
   display: inline;
 }
 
@@ -63,7 +64,7 @@
 }
 
 .boxcol {
-  width: 33%;
+  width: 50%;
 }
 
 .panel {
@@ -74,7 +75,7 @@
 }
 
 textarea {
-  width: 80%;
+  width: 60%;
   font-size: medium;
 }
 
@@ -88,12 +89,10 @@ textarea {
 }
 
 .buttons {
-  margin: auto;
+  margin: 1em auto;
   column-width: 200px;
 }
 
-.buttons:hover {
-}
 .counter {
   column-width: 200px;
   column-rule: 1px solid #888;
@@ -106,5 +105,26 @@ textarea {
 .counter .row span:first-child {
   display: inline-block;
   min-width: 170px;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 0.2em;
+}
+h2 {
+  margin-top: 0.2em;
+  font-style: italic;
+}
+
+h3 {
+  margin-top: 0.2em;
+}
+
+.emph {
+  font-style: italic;
+}
+
+.currentWord {
+  font-size: large;
   font-weight: bold;
 }
