@@ -1,19 +1,12 @@
 {
-  "name": "labeller",
-  "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.4",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "lodash": "^4.17.15",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "react-scripts": "1.0.7"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "parcel-bundler": "^1.12.3"
   }
 }

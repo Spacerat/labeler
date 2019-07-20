@@ -172,7 +172,13 @@ class CategoryCounter extends Component {
 
 class Category extends Component {
   render() {
-    return <div><button className="category" onClick={() => this.props.onClick(this.props.name)}><span className="letter">({this.props.letter})</span> {capitalise(this.props.name)}</button></div>
+    return (
+      <div>
+        <button className="category" onClick={() => this.props.onClick(this.props.name)}>
+          <span className="letter">({this.props.letter})</span> {capitalise(this.props.name)}
+        </button>
+      </div>
+      )
   }
 }
 
