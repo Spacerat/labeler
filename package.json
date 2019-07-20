@@ -10,6 +10,6 @@
     "parcel-bundler": "^1.12.3"
   },
   "scripts": {
-    "build": "npx parcel build src/index.html --public-url 'labeler/' -d ./docs"
+    "build": "npx parcel build src/index.html --public-url '/labeler/' -d ./docs"
   }
 }

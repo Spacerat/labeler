@@ -35,4 +35,4 @@ var n,t=arguments[3],r=require("buffer").Buffer;(function(){var r,e=200,u="Unsup
 },{"react":"1n8/","./App.css":"E+qH","lodash":"B1iE"}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("react")),r=u(require("react-dom")),t=u(require("./App"));function u(e){return e&&e.__esModule?e:{default:e}}require("./index.css"),r.default.render(e.default.createElement(t.default,null),document.getElementById("root"));
 },{"react":"1n8/","react-dom":"NKHc","./App":"lY9v","./index.css":"E+qH"}]},{},["Focm"], null)
-//# sourceMappingURL=labeler/src.8fc2d88f.js.map
+//# sourceMappingURL=/labeler/src.8fc2d88f.js.map
