@@ -19,12 +19,16 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .badbox {
-  background: #FAA;
+  background: #faa;
 }
 
 .categories .letter {
@@ -45,9 +49,8 @@
 }
 
 .category:hover {
-  background: #F2F2F2;
+  background: #f2f2f2;
 }
-
 
 .boxcolumns {
   display: flex;
@@ -64,14 +67,15 @@
 }
 
 .panel {
-  background: #FBFBFB;
-  border: thin #CCC solid;
+  background: #fbfbfb;
+  border: thin #ccc solid;
   border-radius: 20px;
   padding: 20px;
 }
 
 textarea {
   width: 80%;
+  font-size: medium;
 }
 
 .mainbox {
@@ -88,7 +92,8 @@ textarea {
   column-width: 200px;
 }
 
-.buttons:hover {}
+.buttons:hover {
+}
 .counter {
   column-width: 200px;
   column-rule: 1px solid #888;
