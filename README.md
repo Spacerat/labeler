@@ -1,5 +1,7 @@
 # Labeler
 
+https://veryjoe.com/labeler/
+
 A web app which lets you categorize text.
 
 ## How to use
